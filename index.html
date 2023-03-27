@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .col-md-6 {
+            width: calc(50% - 14px);
+            height: 150px;
+            border: 1px solid red;
+            background-color: blue;
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px 0px 0px 10px;
+        }
+
+        .features__left {
+            background-image: url("https://images.unsplash.com/photo-1678648113407-913545723db2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+            background-size: cover;
+       }
+       .features__right {
+        background-color: bisque;
+        
+       }
+       .features__right h3 {
+        font-size: 20px;
+        /* display: inline-block;
+        margin-bottom: 0px; */
+       }
+       .features__right p {
+        font-size: 10px;
+       }
+       .features__right a {
+        font-size: 10px;
+        text-decoration: none;
+        background-color: rgb(232, 204, 160);
+        color: #000;
+        padding: 3px;
+        border-radius: 3px;
+        display: inline-block;
+        margin-top: 18px;
+       }
+       .features__right a:hover {
+        color: rgb(232, 204, 160);
+        background-color: rgb(0, 0, 0);
+       }
+       #position {
+        margin: 10px;
+       }
+       .box {
+        display: inline-block;
+        width: 350px;
+        height: 200px;
+        border: 2px solid red;
+        /* width: calc(25% - 4px); */
+       }
+       .box1 {
+        width: 70px;
+        height: 35px;
+        border: 1px solid red;
+        position: absolute;
+        /* top: 1px; */
+        left: 15px;
+        font-size: 7px;
+       }
+       .box2 {
+        width: 70px;
+        height: 35px;
+        border: 1px solid rgb(0, 123, 255);
+        position: relative;
+        top: 15px;
+        left: 17px;
+        font-size: 7px;
+       
+       }
+       #sec {
+        width: 100%;
+        height: 2000px;
+        background-color: beige;
+       }
+       .nay {
+        width: 70%;
+        height: 25px;
+        top: 0;
+        position: fixed;
+        position: absolute;
+        margin: 35px 0;
+        background-color: darkblue;
+        border: 1px solid white;
+       }
+    </style>
+</head>
+<header>
+
+</header>
+
+
+<body>
+    <main>
+        <section>
+            <div class="row">
+                <div class="col-md-6 features__left">
+
+                </div>
+                <div class="col-md-6 features__right">
+                    <h3>Watch movie and nananananana</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab neque adipisci deleniti veritatis
+                        facilis eaque vitae odio quasi obcaecati aut accusantium doloribus, eveniet perspiciatis animi
+                        eius porro eum vel earum.</p>
+
+                    <a href="#">Feautures view</a>
+
+                </div>
+            </div>
+        </section>
+        <section id="position">
+            <div class="box">
+                <div class="box1">
+                    <h2>Position absolute</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box2">
+                    <h2>Position relative</h2>
+                </div>
+            </div>
+        </section>
+        <section id="sec">
+            <div class="nay"></div>
+        </section>
+    </main>
+</body>
+
+</html>
